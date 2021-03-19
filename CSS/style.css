@@ -1,0 +1,55 @@
+body{
+    background:linear-gradient(45deg,blue,orange);
+}
+
+.main-section{
+    height: 600px;
+    width: 380px;
+    /* background-color: rgb(217, 255, 0); */
+    background:linear-gradient(45deg,rgb(21, 21, 100),red);
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 6%;
+    
+}
+.name-of{
+    background-color: rgb(255, 238, 0);
+    /* background:linear-gradient(45deg,rgb(21, 21, 100),red); */
+    max-width: 200%;
+    max-height: 90%;
+}
+.name-of h2{
+    text-align: center;
+}
+
+
+/* Result section of calculator */
+.display-container{
+    background-color: rgb(240, 238, 238);
+    /* padding-top: 7%; */
+    height: 40px;
+    width: 100%;
+    overflow: hidden;
+    color: black;
+    /* display: flexbox; */
+}
+
+.button{
+    background-color: rgb(6, 255, 255);
+    width: 12%;
+    height: 12%;
+    display: inline-block;
+    font-size: 1.5rem;
+    margin: 7px;
+    padding: 10px 14px 10px 10px;
+    border: solid black;
+    border-radius: 25%;
+}
+
+
+#display
+{
+    color: blue;
+    text-align: end;
+    font-size: 20px;
+}
